@@ -7,7 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 
-// import Nopages from './components/Nopages';
+import Nopages from './components/Nopages';
 
 function App() {
   return (
@@ -16,10 +16,10 @@ function App() {
       <Navbar />
      <Routes>
        <Route path="/" element={<Home />} />
-       <Route path="about" element={<About />} />
-       <Route path="portfolio" element={<Portfolio />} />
-       <Route path="contact" element={<Contact />} />
-        {/* <Route path="*" element={<Nopages />} /> */}
+       <Route path="/about" element={<About />} />
+       <Route path="/portfolio" element={<Portfolio />} />
+       <Route path="/contact" element={<Contact />} />
+       <Route path="/*" element={<Nopages />} />
      </Routes>
     </BrowserRouter>
   );

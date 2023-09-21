@@ -1,0 +1,21 @@
+/* About button css */
+.btn{
+    background-color: crimson;
+}
+.btn:hover{
+    background-color: crimson;
+}
+.h3{
+    color: crimson;
+}
+.btn-expand-on-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-expand-on-hover:hover {
+    transform: scale(1.2); /* Expand by 20% on hover */
+  }
+
+  /* styles.css */
+
+  /* YourComponent.css */
