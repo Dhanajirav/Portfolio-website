@@ -1,0 +1,41 @@
+
+
+/* Set the navbar's height */
+.navbar {
+    height: 70px; /* Adjust the height as needed */
+}
+
+.nav-link {
+    font-size: 20px; /* Increase font size for the section name */
+    color: white;
+}
+ /* Style the icons */
+ .nav-link i {
+    color: crimson;
+    transition: color 0.3s;
+    margin-right: 5px; /* Add margin to the right of the icon */
+    font-size: 24px; /* Increase font size for the icon */
+}
+
+/* Change icon color to white on hover */
+.nav-item:hover .nav-link i {
+    color: white;
+    
+}
+
+/* Add custom CSS for expanding navbar items on hover */
+.nav-item:hover {
+    transform: translateY(-30%);
+    background-color: crimson;
+}
+
+/* Add transition for smooth animation */
+.nav-item {
+    transition: transform 0.3s;
+    background-color: 0.3s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
