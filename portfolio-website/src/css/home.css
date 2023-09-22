@@ -19,3 +19,24 @@
   /* styles.css */
 
   /* YourComponent.css */
+.image{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 30% 45% 55% 40%;
+    animation:pandaimg 3s infinite ;
+    z-index: 20;
+    translate: 0 0;
+}
+@keyframes pandaimg {
+    50% {box-shadow: 5px 5px 10px 5px crimson;}
+    50% {translate: 5px -5px;}
+  }
+
+  .image {
+    transition: transform 0.2s ease;
+  }
+  
+  .image:hover {
+    transform: scale(1.1); /* Expand by 10% on hover */
+  }
+  

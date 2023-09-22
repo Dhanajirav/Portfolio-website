@@ -5,6 +5,9 @@ import '../css/navbar.css'
 export default function Navbar() {
   return (
     <div>
+        <div className="fixed-top text-center container-fluid quote">
+           <h3 className="">"There is no secret ingredient. It's just you."</h3>
+         </div>
       <nav className="navbar navbar-expand navbar-dark bg-dark fixed-bottom">
         <ul className="navbar-nav w-100 ">
             <li className="nav-item text-center col d-block" >

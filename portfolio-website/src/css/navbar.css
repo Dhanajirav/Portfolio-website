@@ -39,3 +39,12 @@
     justify-content: center;
     color: white;
 }
+
+.quote{
+    background-color: rgb(24, 24, 24);
+    color: rgba(220, 20, 60, 0.678);
+}
+.quote:hover{
+    background-color: rgb(98, 55, 102);
+    color: rgb(147, 206, 203);
+}

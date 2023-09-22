@@ -1,0 +1,147 @@
+
+
+.abouth1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.abouth1 span{
+    color: crimson;
+}
+
+
+.about-image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 30% 45% 55% 40%;
+    animation:pandaimg 3s infinite ;
+    z-index: 20;
+    translate: 0 0;
+}
+@keyframes pandaimg {
+    50% {box-shadow: 5px 5px 10px 5px crimson;}
+    50% {translate: 5px -5px;}
+  }
+
+  .about-image {
+    transition: transform 0.2s ease;
+  }
+  
+  .about-image:hover {
+    transform: scale(1.1); /* Expand by 10% on hover */
+  }
+
+  .box{
+    box-shadow: 5px white;
+    transition: transform 0.3s ease;
+    /* border: 2px solid crimson; */
+  }
+  
+  .box:hover {
+    transform: scale(1.2); /* Expand by 20% on hover */
+  }
+  .numh3{
+    font-weight: bold;
+    color: crimson;
+  }
+  .abouth2{
+    font-weight: 900;
+  }
+
+  .font-size h4 {
+    font-size: medium;
+    color: azure;
+  }
+  .font-size h4 span {
+    font-size: medium;
+    color: rgb(85, 85, 85);
+  }
+
+  .bg-crimson{
+    background-color: crimson;
+  }
+
+  @media screen and (max-width:768px) {
+    .abouth1{
+        font-size: 2.5rem;
+    }
+    .font-size h4 {
+        font-size: small;
+        color: azure;
+      }
+      .font-size h4 span {
+        font-size: small;
+        color: rgb(85, 85, 85);
+      }
+}
+.bg-i{
+    border-radius: 40%;
+}
+.bg-i i{
+    font-size: 1.2rem;
+}
+
+.div-ed span{
+    background-color: rgb(51, 51, 51);
+    padding: 1% 2%;
+    border-radius: 15px;
+}
+.div-ed h3{
+    font-size: medium;
+    margin-top: 10px;
+}
+.div-ed p{
+    font-size: small;
+    color: rgb(172, 172, 172);
+}
+
+
+
+  .custom-parent div h3{
+     visibility: hidden;
+  }
+  .card{
+    background-color: #c5c5c50e;
+  }
+
+  .card:hover{
+    background-color: #ffffff7a;
+  }
+
+  /* Default style for cards */
+.card {
+    width: 100%; /* By default, cards take up the full width of their container */
+    /* Add other card styles here */
+}
+
+/* Media query for laptops/desktops */
+@media (min-width: 768px) {
+    .card {
+        width: calc(16% - 20px); /* 4 cards in a row with some spacing */
+        margin-right: 10px; /* Adjust the spacing as needed */
+    }
+
+    .card:nth-child(4n) {
+        margin-right: 10px; /* Remove margin from the last card in each row */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .card {
+        width: calc(33% - 20px); /* 2 cards in a row with some spacing */
+        margin-right: 10px; /* Adjust the spacing as needed */
+    }
+
+    .card:nth-child(2n) {
+        margin-right: 10px; /* Remove margin from the last card in each row */
+    }
+}
+
+.space-holder {
+    width: 200px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    background-color: rgba(255, 255, 255, 0); /* Optional: Add a background color for visibility */
+}
+
+  
