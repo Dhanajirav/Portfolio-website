@@ -4,5 +4,5 @@
   base = "/"
 [[redirects]]
   from = "/*"
-  to= "/about"
+  to= "/index.html"
   status = 200
