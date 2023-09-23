@@ -1,0 +1,52 @@
+
+
+.shareicon{
+    background-color: rgb(77, 77, 77);
+    color: rgb(75, 75, 75);
+    border-radius: 50%;
+}
+.shareicon:hover{
+    background-color: crimson;
+}
+.hstack div p{
+    font-size:medium;
+    color: rgb(145, 145, 145);
+}
+.hstacks div i{
+    font-size:x-large;
+    color: rgb(255, 255, 255);
+}
+.hstacks div i:hover{
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    border-radius: 100%;
+}
+.hstacks2 div i{
+    font-size:x-large;
+    color: crimson;
+}
+.hstacks2 div i:hover{
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    border-radius: 100%;
+}
+.getintouch{
+    border-bottom: 5px solid crimson;
+    border-width: 2px;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"],input[type="number"]{
+    background-color: #222222; /* Change this color to your desired background color */
+    padding: 10px 20px; /* Add some padding for spacing */
+    width: 250px; /* Set the width of the input fields */
+    border-radius: 20px;
+    outline: none;
+}
+textarea{
+    background-color: #222222;
+    padding: 20px 40px;
+    width: 520px;
+    border-radius: 20px;
+    outline: none;
+}

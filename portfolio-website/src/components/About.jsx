@@ -21,7 +21,7 @@ export default function About() {
       <section className="container-fluid">
         <div className="row">
 
-           <div className="container-fluid text-center mb-3">
+           <div className="container-fluid text-center mb-4">
              <h1 className="heading d-block abouth1 mt-5 d-inline-block">
               About <span>Me</span>
              </h1>
@@ -96,7 +96,7 @@ export default function About() {
       </section>
 
       <section className="container-fluid">
-            <div className="container-fluid text-center mb-3">
+            <div className="container-fluid text-center mb-4">
              <h1 className="heading d-block abouth1 mt-5 d-inline-block">
               <span>My</span> Skills
              </h1>
@@ -170,7 +170,7 @@ export default function About() {
       </section>
 
       <section className="container-fluid">
-        <div className="container-fluid text-center mb-3">
+        <div className="container-fluid text-center mb-4">
           <h1 className="heading d-block abouth1 mt-5 d-inline-block">
             <span>my</span> Education
            </h1>
